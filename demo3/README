@@ -1,0 +1,21 @@
+Ansible demo goes here
+======================
+
+
+Human outline:
+
+```
+name: webserver
+  - operating_system: Ubuntu 20.04 LTS Focal Fossa
+  - software_packages:
+    - application:
+      - Python3
+        - Version: 3.10.3
+        - virtualenv: /root/pyenv/envs/application_environment
+      - app_root: html_demo_site-main
+    - gunicorn
+      - number_of_workers: 3
+    - nginx
+      - web_root: /var/www/
+      - server_template: files/nginx.conf.j2
+```
