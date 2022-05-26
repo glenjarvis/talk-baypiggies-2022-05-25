@@ -1,0 +1,13 @@
+# fetch:
+# https://github.com/Docker-Hub-frolvlad/docker-alpine-glibc/blob/master/Dockerfile
+FROM python:3.9-alpine
+
+RUN mkdir -p /usr/src/app
+COPY src/* /usr/src/app
+WORKDIR /usr/src/app
+
+# For building a debug build
+# RUN apk update && apk upgrade && apk add bash
+
+RUN /usr/local/bin/python -m pip install --upgrade pip &&\
+    pip install -r requirements.txt && chmod u+x demo4.py
