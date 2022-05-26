@@ -1,0 +1,6248 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BAyPIGgies 2022 05</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/styles/styles.css"></head>
+  <style type="text/css">
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(assets/fonts/raleway-normal.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(assets/fonts/raleway-normal-1.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(assets/fonts/raleway-normal-2.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(assets/fonts/raleway-normal-3.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url(assets/fonts/raleway-normal-4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/raleway-normal-5.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/raleway-normal-6.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/raleway-normal-7.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/raleway-normal-8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/raleway-normal-9.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+</style>
+<style type="text/css">.tk-museo-sans{font-family:"museo-sans",sans-serif;}</style>
+<style type="text/css">@font-face{font-family:museo-sans;src:url(assets/fonts/museo-sans-normal.woff2) format("woff2"),url(assets/fonts/museo-sans-normal.woff) format("woff"),url(assets/fonts/museo-sans-normal.opentype) format("opentype");font-weight:300;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:museo-sans;src:url(assets/fonts/museo-sans-italic.woff2) format("woff2"),url(assets/fonts/museo-sans-italic.woff) format("woff"),url(assets/fonts/museo-sans-italic.opentype) format("opentype");font-weight:300;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:museo-sans;src:url(assets/fonts/museo-sans-normal-1.woff2) format("woff2"),url(assets/fonts/museo-sans-normal-1.woff) format("woff"),url(assets/fonts/museo-sans-normal-1.opentype) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:museo-sans;src:url(assets/fonts/museo-sans-italic-1.woff2) format("woff2"),url(assets/fonts/museo-sans-italic-1.woff) format("woff"),url(assets/fonts/museo-sans-italic-1.opentype) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}</style>
+</head>
+<body>
+  <app-root>
+    <div class="main-spinner text-muted">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <style media="screen">
+      @-webkit-keyframes dot-fx {
+        0%,
+        70%,
+        100% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        35% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @-moz-keyframes dot-fx {
+        0%,
+        70%,
+        100% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        35% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @-o-keyframes dot-fx {
+        0%,
+        70%,
+        100% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        35% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes dot-fx {
+        0%,
+        70%,
+        100% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        35% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .main-spinner {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+           -moz-transform: translate(-50%, -50%);
+             -o-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0.3em;
+      }
+
+      .main-spinner>.dot {
+        width: 1.4em;
+        height: 1.4em;
+        border-width: 0.28em;
+        border-style: solid;
+        border-color: inherit;
+        border-radius: 50%;
+        transform: scale(0);
+        -webkit-animation: dot-fx 1800ms ease infinite 0ms;
+           -moz-animation: dot-fx 1800ms ease infinite 0ms;
+             -o-animation: dot-fx 1800ms ease infinite 0ms;
+                animation: dot-fx 1800ms ease infinite 0ms;
+      }
+
+      .main-spinner>.dot:nth-child(2) {
+        margin-left: 0.28em;
+        -webkit-animation: dot-fx 1800ms ease infinite 270ms;
+           -moz-animation: dot-fx 1800ms ease infinite 270ms;
+             -o-animation: dot-fx 1800ms ease infinite 270ms;
+                animation: dot-fx 1800ms ease infinite 270ms;
+      }
+
+      .main-spinner>.dot:nth-child(3) {
+        margin-left: 0.28em;
+        -webkit-animation: dot-fx 1800ms ease infinite 540ms;
+           -moz-animation: dot-fx 1800ms ease infinite 540ms;
+             -o-animation: dot-fx 1800ms ease infinite 540ms;
+                animation: dot-fx 1800ms ease infinite 540ms;
+      }
+    </style>
+  </app-root>
+
+  
+  <script>
+  window.__sb__ = {
+    presentation: {
+  "id": "ev7p7roljl",
+  "name": "BAyPIGgies 2022 05",
+  "slides": [
+    {
+      "id": "5CeY6H9Snz",
+      "elements": [
+        {
+          "id": "322ibequg",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1517245386807-bb43f82c33c4",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "5QgIuuBxKwM",
+              "name": "Gaining a deep understanding the problems that customers face is how you build products that provide value and grow. It all starts with a conversation. You have to let go of your assumptions so you can listen with an open mind and understand what’s actually important to them. That way you can build something that makes their life better. Something they actually want to buy.",
+              "owner": "headwayio",
+              "ownerName": "Headway",
+              "ownerId": "_vzG3EPzHtI",
+              "usageReportUrl": "https://api.unsplash.com/photos/5QgIuuBxKwM/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "qg449wxqs",
+          "type": "heading",
+          "data": {
+            "heading": "<h1>Building Infrastructure with Python Based Tools</h1>",
+            "subheading": "<p><i>Bay Area Python Interest Group (BAyPIGgies) 2022-05-26</i></p>"
+          },
+          "options": {
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.13639071140887676,
+            "y": 0.3541421946823102,
+            "w": 0.7610123425088537,
+            "h": 0.49253084742747444,
+            "z": 2
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "backgroundDim": 0.5,
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        1,
+        5
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "0B56cwSRnL",
+      "elements": [
+        {
+          "id": "so0nuwt2s",
+          "type": "heading",
+          "data": {
+            "heading": "<p><b>Promise</b></p>",
+            "subheading": ""
+          },
+          "options": {
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "xRatio": -6.5,
+            "yRatio": -47.83,
+            "textSize": 0.4,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.125,
+            "y": 0.224,
+            "w": 0.2099999916927321,
+            "h": 0.16683318771266492,
+            "z": 9
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "n9ur6i0yb",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>By the end of this talk you will:</p><ul><li>Learn something that you didn't know</li><li>Better appreciate the number of choices for Infrastructure as Code (IaC)</li><li>Gain a Pycon 2022 \"Best Practice\"</li><li>You will learn at least one more useless \"As a Service\" buzzword</li><li>At least 1 xkcd reference</li></ul>"
+          },
+          "options": {
+            "x": 0,
+            "y": 0,
+            "xRatio": -18.31,
+            "yRatio": 35.89
+          },
+          "style": {
+            "x": 0.125,
+            "y": 0.3908333333333333,
+            "w": 0.76,
+            "h": 0.385,
+            "z": 7
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": "default",
+        "backgroundDim": 0.3,
+        "cropBackground": true,
+        "animate": false,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        2,
+        9
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "mioxj87olu",
+      "elements": [
+        {
+          "id": "so0nuwt2s",
+          "type": "heading",
+          "data": {
+            "heading": "<p><b>Path</b></p>",
+            "subheading": ""
+          },
+          "options": {
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "xRatio": -6.5,
+            "yRatio": -47.83,
+            "textSize": 0.4,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.125,
+            "y": 0.224,
+            "w": 0.2099999916927321,
+            "h": 0.16683318771266492,
+            "z": 9
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "n9ur6i0yb",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>The milestones along the path are:</p><ul><li>Define original problem</li><li>Virtual Machines, Boto3</li><li>Bridge to UserData / Cloud-Init</li><li>Higher Level Ansible</li><li>Containers</li><li>Reviewing the problem</li></ul>"
+          },
+          "options": {
+            "x": 0,
+            "y": 0,
+            "xRatio": -18.31,
+            "yRatio": 35.89
+          },
+          "style": {
+            "x": 0.14750006064305565,
+            "y": 0.39082809607741725,
+            "w": 0.7545259250497949,
+            "h": 0.4926580321659929,
+            "z": 7
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": "default",
+        "backgroundDim": 0.3,
+        "cropBackground": true,
+        "animate": false,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        5,
+        22
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "KjvDOCZgxW",
+      "elements": [
+        {
+          "id": "qgw4xoyox",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1502444330042-d1a1ddf9bb5b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "tysecUm5HJA",
+              "name": null,
+              "owner": "papaioannou_kostas",
+              "ownerName": "Papaioannou Kostas",
+              "ownerId": "F1zDGDxp8nQ",
+              "usageReportUrl": "https://api.unsplash.com/photos/tysecUm5HJA/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "01btqfmti",
+          "type": "heading",
+          "data": {
+            "heading": "<h1><b>About Me</b></h1>",
+            "subheading": "<p>Glen Jarvis</p>"
+          },
+          "options": {
+            "xRatio": -4.85,
+            "yRatio": -33.62,
+            "textSize": 1,
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.15,
+            "y": 0.15433333333333332,
+            "w": 0.36,
+            "h": 0.256,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v6v0u5m59m",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Python first real commercial language</li><li>DevOps / SRE (with some Web, internal tools, etc.)</li><li>Current work for large subscription-based music streaming service (Not Spotify)</li><li>Own small company (currently renaming/rebranding: Blueprint Operations)</li></ul>"
+          },
+          "options": {
+            "variation": "Solid"
+          },
+          "style": {
+            "x": 0.15000000000000002,
+            "y": 0.4876666666666667,
+            "z": 3,
+            "w": 0.71,
+            "h": 0.358
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "backgroundDim": 0.4,
+        "colorSet": "default",
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        3,
+        13
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "z99akmwhyn",
+      "elements": [
+        {
+          "id": "qgw4xoyox",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1502444330042-d1a1ddf9bb5b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "tysecUm5HJA",
+              "name": null,
+              "owner": "papaioannou_kostas",
+              "ownerName": "Papaioannou Kostas",
+              "ownerId": "F1zDGDxp8nQ",
+              "usageReportUrl": "https://api.unsplash.com/photos/tysecUm5HJA/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "e1wqyiiqvc",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "m7gsmu052sf",
+              "url": "assets/img/user_e86035c3069240b3a91eae901e0f42f1_imposter_tweet.png",
+              "crop": "contain"
+            },
+            "icon": null,
+            "caption": ""
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.043125,
+            "y": 0.243,
+            "w": 0.95687500058196,
+            "h": 0.5929903092811962,
+            "z": 4
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "01btqfmti",
+          "type": "heading",
+          "data": {
+            "heading": "<h1><b>Promise</b></h1>",
+            "subheading": "<p>(cont)</p>"
+          },
+          "options": {
+            "xRatio": -4.85,
+            "yRatio": -33.62,
+            "textSize": 1,
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.5125047751275678,
+            "h": 0.24322277210970863,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v6v0u5m59m",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>I will also learn something that I didn't know by the end of this talk</li></ul>"
+          },
+          "options": {
+            "variation": "Solid"
+          },
+          "style": {
+            "x": 0.022500025610674903,
+            "y": 0.8095973156596631,
+            "z": 3,
+            "w": 1.003350045042908,
+            "h": 0.19176111182791006
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "backgroundDim": 0.4,
+        "colorSet": "default",
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        1,
+        4
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "404FghAfec",
+      "elements": [
+        {
+          "id": "3m8turo2kp",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Problem</p>",
+            "subheading": "<p>Customer wanted IaaC / Pulumi</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.27499999999999997,
+            "y": 0.23899999999999993,
+            "z": 10,
+            "w": 0.46,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "r9uvptyty",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Did not know Infrastructure</li><li>Wanted to do entire website with TypeScript</li><li>Pulumi was the promise</li><li>Pulumi does Python too; hey, let me do a talk on that</li></ul>"
+          },
+          "options": {
+            "x": 0,
+            "y": 0,
+            "xRatio": 7.07,
+            "yRatio": -0.99,
+            "textSize": 0.4,
+            "variation": "Solid"
+          },
+          "style": {
+            "x": 0.175,
+            "y": 0.48900000000000005,
+            "w": 0.66,
+            "h": 0.272,
+            "z": 7
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 1,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        6,
+        17
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "09fc3rs0va",
+      "elements": [
+        {
+          "id": "8qj1vu6sh",
+          "type": "heading",
+          "data": {
+            "heading": "<p>One Way</p>",
+            "subheading": ""
+          },
+          "options": {
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.4,
+            "y": 0.2861666666666666,
+            "w": 0.21000000000000002,
+            "h": 0.141,
+            "z": 15
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "73yc7sit5a",
+          "type": "code",
+          "data": {
+            "code": "$ python -m this | grep -i \"only one\"\nThere should be one-- and preferably only one --obvious way to do it.",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.09999999999999999,
+            "y": 0.4528333333333333,
+            "z": 16,
+            "w": 0.81,
+            "h": 0.261
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": "default",
+        "backgroundDim": 0.7,
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        5,
+        13
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "a1cjra7mz1",
+      "elements": [
+        {
+          "id": "qgw4xoyox",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1502444330042-d1a1ddf9bb5b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "tysecUm5HJA",
+              "name": null,
+              "owner": "papaioannou_kostas",
+              "ownerName": "Papaioannou Kostas",
+              "ownerId": "F1zDGDxp8nQ",
+              "usageReportUrl": "https://api.unsplash.com/photos/tysecUm5HJA/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "01btqfmti",
+          "type": "heading",
+          "data": {
+            "heading": "<h1><b>One Way Today?</b></h1>",
+            "subheading": "<h1>PEP 636</h1>"
+          },
+          "options": {
+            "xRatio": -4.85,
+            "yRatio": -33.62,
+            "textSize": 1,
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.17500000000000004,
+            "y": 0.19733333333333336,
+            "w": 0.51,
+            "h": 0.287,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v6v0u5m59m",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>https://peps.python.org/pep-0636/</li><li>&nbsp;PEP 636 – Structural Pattern Matching: Tutorial</li><li>Sponsor: Guido van Rossum &lt;guido at python.org&gt;</li><li>Python Version: 3.10</li></ul>"
+          },
+          "options": {
+            "variation": "Solid"
+          },
+          "style": {
+            "x": 0.175,
+            "y": 0.5306666666666667,
+            "z": 3,
+            "w": 0.66,
+            "h": 0.272
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "backgroundDim": 0.4,
+        "colorSet": "default",
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        7,
+        18
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "ifi0esf6ht",
+      "elements": [
+        {
+          "id": "qgw4xoyox",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1502444330042-d1a1ddf9bb5b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "tysecUm5HJA",
+              "name": null,
+              "owner": "papaioannou_kostas",
+              "ownerName": "Papaioannou Kostas",
+              "ownerId": "F1zDGDxp8nQ",
+              "usageReportUrl": "https://api.unsplash.com/photos/tysecUm5HJA/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "01btqfmti",
+          "type": "heading",
+          "data": {
+            "heading": "<h1><b>One Way Today?</b></h1>",
+            "subheading": "<h1>PEP 636</h1>"
+          },
+          "options": {
+            "xRatio": -4.85,
+            "yRatio": -33.62,
+            "textSize": 1,
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.30000000000000004,
+            "y": 0.0005000000000000004,
+            "w": 0.51,
+            "h": 0.287,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "u52ctke22d",
+          "type": "code",
+          "data": {
+            "code": "match event.get():\n    case Click(position=(x, y)):\n        handle_click_at(x, y)\n    case KeyPress(key_name=\"Q\") | Quit():\n        game.quit()\n    case KeyPress(key_name=\"up arrow\"):\n        game.go_north()\n    ...\n    case KeyPress():\n        pass # Ignore other keystrokes\n    case other_event:\n        raise ValueError(f\"Unrecognized event: {other_event}\")\n",
+            "language": null
+          },
+          "options": {},
+          "style": {
+            "x": 0.2,
+            "y": 0.251,
+            "z": 4,
+            "w": 0.7069616829265241,
+            "h": 0.7496457499479656
+          },
+          "fractionalIndex": [
+            4,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "backgroundDim": 0.4,
+        "colorSet": "default",
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        16,
+        41
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "jatbib759x",
+      "elements": [
+        {
+          "id": "qgw4xoyox",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1502444330042-d1a1ddf9bb5b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "tysecUm5HJA",
+              "name": null,
+              "owner": "papaioannou_kostas",
+              "ownerName": "Papaioannou Kostas",
+              "ownerId": "F1zDGDxp8nQ",
+              "usageReportUrl": "https://api.unsplash.com/photos/tysecUm5HJA/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "9g2nlyfaot",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "6ay2bd9bvjq",
+              "url": "assets/img/user_ca04d9b106574ad8b65860ec398c5ef1_Picard.jpg",
+              "crop": "fill"
+            },
+            "icon": null,
+            "caption": ""
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.0001785338583227651,
+            "y": 0,
+            "w": 1.052365327312606,
+            "h": 1.0000243405242761,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "backgroundDim": 0.4,
+        "colorSet": "default",
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        9,
+        23
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "gydhb7kul9",
+      "elements": [
+        {
+          "id": "qgw4xoyox",
+          "type": "background",
+          "data": {
+            "image": {
+              "url": "assets/img/photo-1502444330042-d1a1ddf9bb5b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjIwMzcxfQ",
+              "source": "Unsplash",
+              "id": "tysecUm5HJA",
+              "name": null,
+              "owner": "papaioannou_kostas",
+              "ownerName": "Papaioannou Kostas",
+              "ownerId": "F1zDGDxp8nQ",
+              "usageReportUrl": "https://api.unsplash.com/photos/tysecUm5HJA/download?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {},
+          "style": {},
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "01btqfmti",
+          "type": "heading",
+          "data": {
+            "heading": "<h1>Background</h1>",
+            "subheading": "<p>Press Rewind</p>"
+          },
+          "options": {
+            "xRatio": -4.85,
+            "yRatio": -33.62,
+            "textSize": 1,
+            "textAlign": "left",
+            "x": 0,
+            "y": 0,
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.10812500000000014,
+            "y": 0.16233333333333333,
+            "w": 0.41000000000000003,
+            "h": 0.256,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "oeeggy2obo",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>Meeting: Developing the Kubernetes Python Client</p><p>Scott Lee</p><p>https://baypiggies.net/meeting-2020-02-27.html</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.10812500000000014,
+            "y": 0.4956666666666667,
+            "z": 2,
+            "w": 0.51,
+            "h": 0.342
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "oxni1gwsms",
+          "type": "quote",
+          "data": {
+            "quote": "<p>What are containers?</p>",
+            "author": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.6081249999999999,
+            "y": 0.4956666666666667,
+            "z": 3,
+            "w": 0.29375,
+            "h": 0.185
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "backgroundDim": 0.4,
+        "colorSet": "default",
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        11,
+        28
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "4wSFIOq4Jj",
+      "elements": [
+        {
+          "id": "sczilem0mb",
+          "type": "heading",
+          "data": {
+            "heading": "<p>DevOps / SRE Framework</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.24999999999999997,
+            "y": 0.13702518139137848,
+            "z": 10,
+            "w": 0.51,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "pchiiexu0v",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "414v1u2rmxn",
+              "url": "assets/img/user_2f9f8e16888e4718a81d4a3036da95f1_continuous-development-visual.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.14999999999999997,
+            "y": 0.3036918480580453,
+            "w": 0.7000000000000001,
+            "h": 0.5592829705505762,
+            "z": 11
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "jnosdow8nd",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Image taken from https://spectralops.io/blog/the-essential-guide-to-understanding-the-devops-lifecycle/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 12
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        2,
+        5
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "iZxuuIHXy4",
+      "elements": [
+        {
+          "id": "56urmmxeqe",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Extra Elements</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.3500000000000001,
+            "y": 0.3066666666666667,
+            "z": 7,
+            "w": 0.31,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "1t4n7apvgc",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Security</li><li>GitOps (Heroku style deploys)</li><li>BizOps</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.30000000000000004,
+            "y": 0.4733333333333334,
+            "z": 8,
+            "w": 0.41000000000000003,
+            "h": 0.22
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 1,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        3,
+        7
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "puzs1c4e6l",
+      "elements": [
+        {
+          "id": "yrz6rr8942",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Hardware Server Rack</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.3,
+            "y": -0.010131578947368356,
+            "z": 2,
+            "w": 0.46,
+            "h": 1.1065444365655215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "igbnec1qq5",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "klWUhr-wPJ8",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1506399558188-acca6f8cbf41",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDE0fHxjb21wdXRlciUyMHJhY2t8ZW58MHwwfHx8MTY1MzUwODcxMw&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/klWUhr-wPJ8/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDE0fHxjb21wdXRlciUyMHJhY2t8ZW58MHwwfHx8MTY1MzUwODcxMw?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@imgix?utm_source=slidebean&utm_medium=referral",
+              "owner": "imgix",
+              "crop": "fill"
+            },
+            "icon": null,
+            "caption": ""
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.30000000000000004,
+            "h": 1,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "nr0s7bt88x",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "ISG-rUel0Uw",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1520869562399-e772f042f422",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1520869562399-e772f042f422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGNvbXB1dGVyJTIwcmFja3xlbnwwfDB8fHwxNjUzNTA4NzEz&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/ISG-rUel0Uw/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGNvbXB1dGVyJTIwcmFja3xlbnwwfDB8fHwxNjUzNTA4NzEz?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@thomasjsn?utm_source=slidebean&utm_medium=referral",
+              "owner": "Thomas Jensen",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.75,
+            "y": 0,
+            "w": 0.25,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        10,
+        23
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "p2jz32ds6i",
+      "elements": [
+        {
+          "id": "e762sievzt",
+          "type": "heading",
+          "data": {
+            "heading": "<p>How to Provision?</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.22499999999999998,
+            "y": 0.30666666666666664,
+            "z": 1,
+            "w": 0.36,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "24vyky95xa",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Contract negotiation</li><li>Human racking and cabling</li><li>Sunk costs (Fixed fee regardless of business)</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.22499999999999998,
+            "y": 0.4733333333333334,
+            "z": 2,
+            "w": 0.56,
+            "h": 0.22
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 1,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        7,
+        16
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "saa2qn2o7c",
+      "elements": [
+        {
+          "id": "ph0i3phhuc",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Virtualization Software</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.275,
+            "y": 0.22866666666666668,
+            "z": 1,
+            "w": 0.46,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "qad8b4r9rm",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>VirtualBox</li><li>VMWare</li><li>Parallels</li><li>KVM</li><li>Xen</li><li>QEMU</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.27499999999999997,
+            "y": 0.39533333333333337,
+            "z": 2,
+            "w": 0.21000000000000002,
+            "h": 0.376
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        4,
+        9
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "HiBB2DqukF",
+      "elements": [
+        {
+          "id": "eq70nx0rw1",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Hypervisors</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.375,
+            "y": 0.1020169851380042,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xa6g0lpggo",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Image from https://en.wikipedia.org/wiki/Hypervisor</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "ilc26zo88z",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "udtq6xhj339",
+              "url": "assets/img/user_cf18fd9ee5434cc0a712e0590e6cd9f1_Hypervisor.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.17500000000000004,
+            "y": 0.268683651804671,
+            "w": 0.65,
+            "h": 0.6292993630573248,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        1,
+        2
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "opwlk0jqu2",
+      "elements": [
+        {
+          "id": "dc6xefwmf7",
+          "type": "heading",
+          "data": {
+            "heading": "<p> Many people entire Thesis here</p>",
+            "subheading": "<p>(And coincidentally my past year of work on oVirt/KubeVirt/RHV)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.07500000000000002,
+            "y": 0.05409531502423255,
+            "z": 1,
+            "w": 0.86,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "lpa2xgvy2m",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "m7gsmu052sf",
+              "source": null,
+              "url": "assets/img/user_e86035c3069240b3a91eae901e0f42f1_imposter_tweet.png",
+              "thumbnailUrl": null,
+              "usageReportUrl": null,
+              "creditUrl": null,
+              "owner": null,
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.17500000000000007,
+            "y": 0.3040953150242327,
+            "w": 0.65,
+            "h": 0.6418093699515348,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        1,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "w8bt34rvep",
+      "elements": [
+        {
+          "id": "5riaf4t8dd",
+          "type": "heading",
+          "data": {
+            "heading": "<p>It is Magic</p>",
+            "subheading": "<p>Somehow we have software that Allocates a Machine</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "w": 0.76,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "5xy57dp1tj",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "YlgnX_ISPLo",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1622466565619-abbf557817a9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1622466565619-abbf557817a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDIzfHxtYWdpY3xlbnwwfDB8fHwxNjUzNTA5NzM3&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/YlgnX_ISPLo/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDIzfHxtYWdpY3xlbnwwfDB8fHwxNjUzNTA5NzM3?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@roinuj16?utm_source=slidebean&utm_medium=referral",
+              "owner": "Edson Junior",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0.3333333333333334,
+            "w": 1,
+            "h": 0.6666666666666666,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        2,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "m77w37ib94",
+      "elements": [
+        {
+          "id": "sczilem0mb",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Code Depends upon Vendor</p>",
+            "subheading": "<p>There are some standards</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.30000000000000004,
+            "y": 0.0416666666666667,
+            "z": 10,
+            "w": 0.56,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "4m7p0z1w1q",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "9df32j694uw",
+              "url": "assets/img/user_2920c698a1a9466c82125c585bfbc8f1_standards_2x.png",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0.23928559944656358,
+            "w": 1,
+            "h": 0.6666666666666666,
+            "z": 12
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "fcprrddgem",
+          "type": "footer",
+          "data": {
+            "footer": "<p>https://xkcd.com/927/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 11
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        3,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "lehhsenr82",
+      "elements": [
+        {
+          "id": "czvp4zfb68",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Vendors</p>",
+            "subheading": "<p>Wait, Wut!</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.3954761199523113,
+            "y": 0,
+            "z": 2,
+            "w": 0.21000000000000002,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "eo29edo67o",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "oue6io122uj",
+              "url": "assets/img/user_3c6f94290f9849e0970b81561dfe5af1_Cloud-Delivery-Models.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.04318959361446714,
+            "y": 0.18965930910780787,
+            "w": 0.8926912732122995,
+            "h": 0.7390051192669381,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "ge429chqmo",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Photo from https://kinsta.com/blog/google-cloud-vs-aws/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 3
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        7,
+        2
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "2j5rc04uzg",
+      "elements": [
+        {
+          "id": "sczilem0mb",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Vendors</p>",
+            "subheading": "<p>Some vocabulary</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "w": 0.31,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "poy3q5heqs",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "K-Iog-Bqf8E",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1569428034239-f9565e32e224",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1569428034239-f9565e32e224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDJ8fGNsb3VkfGVufDB8MHx8fDE2NTM0MzkwMjI&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/K-Iog-Bqf8E/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDJ8fGNsb3VkfGVufDB8MHx8fDE2NTM0MzkwMjI?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@dianamia?utm_source=slidebean&utm_medium=referral",
+              "owner": "C Dustin",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.5499999999999999,
+            "y": 0,
+            "w": 0.45000000000000007,
+            "h": 1,
+            "z": 11
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "izvv2id03",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li><span class=\"textcolor-#202124\">Software as a service (SaaS) (e.g., gmail)</span></li><li>Function as a Service (FaaS) (e.g., AWS Lambda)</li><li>Data as a Service (DaaS) (e.g., CouchDB)</li><li>Desktop as a Service (DaaS) (e.g., Remote Desktop to something)</li><li>Platform as a Service (PaaS) (e.g., Salesforce)</li><li>Storage as a Service (SaaS) (e.g., Dropbox)</li><li>Infrastructure as a service (Iaas) (e.g., EC2)</li></ul>"
+          },
+          "options": {
+            "x": 0,
+            "y": 0,
+            "xRatio": 7.08,
+            "yRatio": 12.2,
+            "textSize": 0.4
+          },
+          "style": {
+            "x": 0,
+            "y": 0.25000000000000006,
+            "w": 0.56,
+            "h": 0.515,
+            "z": 9
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        4,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "entbae77os",
+      "elements": [
+        {
+          "id": "93n9iaux7z",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Garter Magic Quadrant</p>",
+            "subheading": "<p>To the Rescue</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.275,
+            "y": 0.09359296482412056,
+            "z": 2,
+            "w": 0.46,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "42d4qdn51m",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "mrwgd9qhfbl",
+              "url": "assets/img/user_06b8ddac361f40d793b48973ed12def1_Gartner-Magic-Quadrant.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.32499999999999996,
+            "y": 0.3435929648241206,
+            "w": 0.35000000000000003,
+            "h": 0.5628140703517589,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "kr5hm7toqk",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Taken from https://kinsta.com/blog/google-cloud-vs-aws/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 3
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        6,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "psoi17m66w",
+      "elements": [
+        {
+          "id": "sczilem0mb",
+          "type": "heading",
+          "data": {
+            "heading": "<p>We choose AWS</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.6500000000000001,
+            "y": 0.2500000000000001,
+            "z": 10,
+            "w": 0.34999999999999987,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "5qvmk0za27",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "6mUIYJvS2_I",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1569011312883-031325587704",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1569011312883-031325587704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDI4fHxDaG9vc2V8ZW58MHwwfHx8MTY1MzUxMTYxOA&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/6mUIYJvS2_I/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDI4fHxDaG9vc2V8ZW58MHwwfHx8MTY1MzUxMTYxOA?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@kellysikkema?utm_source=slidebean&utm_medium=referral",
+              "owner": "Kelly Sikkema",
+              "crop": "fill"
+            },
+            "icon": null,
+            "caption": ""
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.65,
+            "h": 1,
+            "z": 11
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        7,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "76wkd0khl6",
+      "elements": [
+        {
+          "id": "baocb18tgz",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Prerequisites</p>",
+            "subheading": "<p>1 of 3: Virtual Private Cloud (Networking)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.4499999999999999,
+            "y": 0,
+            "z": 2,
+            "w": 0.55,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "1wm1h8771n",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Virtual Private Cloud (VPC) (A virtual network/place were we can put our machine)</li><li>Name: baypiggies-demo-vpc</li><li>Private IP Address Space: 10.0.0.0/16 [Definitely Overkill]</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.4724999944372511,
+            "y": 0.25701442641995575,
+            "z": 3,
+            "w": 0.5498437715983611,
+            "h": 0.48943425071274793
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        },
+        {
+          "id": "nwvht442hm",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "tjiPN3e45WE",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1495756111155-45cb19b8aeee",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1495756111155-45cb19b8aeee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDMwfHxjbG91ZHxlbnwwfDB8fHwxNjUzNDM5ODg4&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/tjiPN3e45WE/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDMwfHxjbG91ZHxlbnwwfDB8fHwxNjUzNDM5ODg4?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@dpascoa?utm_source=slidebean&utm_medium=referral",
+              "owner": "Daniel Páscoa",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.45,
+            "h": 1,
+            "z": 4
+          },
+          "fractionalIndex": [
+            4,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        41,
+        5
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "d95oqbt314",
+      "elements": [
+        {
+          "id": "9xaotfclsh",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "lbjyu47pn6l",
+              "url": "assets/img/user_5d4766ffd7f042c58107471b82e8f8f1_vpc_creation_01.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0002930910339538,
+            "h": 1.0002930505657406,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        33,
+        4
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "g3csfghecw",
+      "elements": [
+        {
+          "id": "fxldzizv2n",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "v0sgnspjn6g",
+              "url": "assets/img/user_a2aa8ef313314551895d6de0f129ccf1_vpc_creation_02.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.9998632762133984,
+            "h": 0.999863235762574,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        25,
+        3
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "hu2i1m4ug1",
+      "elements": [
+        {
+          "id": "fqch7owgrl",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "d7xcsd7vh6u",
+              "url": "assets/img/user_e863140e0ec34714a1eff9c3ac3225f1_vpc_creation_03.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0000737906832806,
+            "h": 1.0000737502239396,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        42,
+        5
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "qkpm6ob7oi",
+      "elements": [
+        {
+          "id": "baocb18tgz",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Prerequisites</p>",
+            "subheading": "<p>2 of 3: Firewall (Network Security)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.51,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "1wm1h8771n",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Name: baypiggies-demo-security-group</li><li>Incoming Port </li><li class=\"ql-indent-1\">SSH (Only Glens Office)</li><li class=\"ql-indent-1\">Web Traffic :80 (Anywhere in the world)</li><li>ID: sg-0d53ca68a605d2eee</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.2964253907883494,
+            "z": 3,
+            "w": 0.5255931267784152,
+            "h": 0.41005092396373793
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        },
+        {
+          "id": "nwvht442hm",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "fzfDRXUya-s",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1583248352195-d3a8e766edf2",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1583248352195-d3a8e766edf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fGZpcmV8ZW58MHwwfHx8MTY1MzI1NjM5MQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/fzfDRXUya-s/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fGZpcmV8ZW58MHwwfHx8MTY1MzI1NjM5MQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@maxkuk?utm_source=slidebean&utm_medium=referral",
+              "owner": "Max Kukurudziak",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.5255908701332774,
+            "y": 0,
+            "w": 0.4741960425689199,
+            "h": 0.9995576515003787,
+            "z": 4
+          },
+          "fractionalIndex": [
+            4,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        59,
+        7
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "k8gpzufr6r",
+      "elements": [
+        {
+          "id": "baocb18tgz",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Prerequisites</p>",
+            "subheading": "<p>3 of 3: SSH Key</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.6499999999999999,
+            "y": 0,
+            "z": 2,
+            "w": 0.31,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "1wm1h8771n",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Name: baypiggies-demo</li><li>Encryption: ed25519</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.6500000000000001,
+            "y": 0.2500000000000001,
+            "z": 3,
+            "w": 0.34999999999999987,
+            "h": 0.167
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        },
+        {
+          "id": "nwvht442hm",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "1bjsASjhfkE",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1553991562-9f24b119ff51",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1553991562-9f24b119ff51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDJ8fGtleXxlbnwwfDB8fHwxNjUzNTM2Mzc5&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/1bjsASjhfkE/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDJ8fGtleXxlbnwwfDB8fHwxNjUzNTM2Mzc5?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@lazycreekimages?utm_source=slidebean&utm_medium=referral",
+              "owner": "Michael Dziedzic",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.6500000000000001,
+            "h": 1,
+            "z": 4
+          },
+          "fractionalIndex": [
+            4,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        76,
+        9
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "olfvsk1waj",
+      "elements": [
+        {
+          "id": "5bv6qqgm3e",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Some Decisions</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.1,
+            "y": 0,
+            "z": 1,
+            "w": 0.36,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "4jljaol5uw",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Type of machine to build</li><li class=\"ql-indent-1\">General Purpose (Our choice; code: T2)</li><li class=\"ql-indent-1\">Memory Optimized</li><li class=\"ql-indent-1\">Storage Optimized</li><li class=\"ql-indent-1\">etc.</li><li>Size of machine (like tee-shirts or Starbucks drinks); Our choice: micro</li><li>Size of main hard drive? (our choice 8G)</li><li>What default Operating System (Our choice: Amazon Linux 2 -- based on&nbsp;Red Hat Enterprise Linux (RHEL) without all subscription stuff)</li><li>Region of the world for our computer (Virginia: code name: us-east-1')</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.16666666666666666,
+            "z": 2,
+            "w": 0.56,
+            "h": 0.749
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "1ogmq9valj",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "u0vgcIOQG08",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1429743305873-d4065c15f93e",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1429743305873-d4065c15f93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGRlY2lzaW9ufGVufDB8MHx8fDE2NTM1MTQ1NzQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/u0vgcIOQG08/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGRlY2lzaW9ufGVufDB8MHx8fDE2NTM1MTQ1NzQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@madebyjens?utm_source=slidebean&utm_medium=referral",
+              "owner": "Jens Lelie",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.55,
+            "y": 0,
+            "w": 0.45,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        9,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "auxt3y1vok",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "# VPC previously setup. This (like almost all AWS infrastructure can\n# also be created with the boto3 library).\n# It was created with GUI (see images in this directory) to demonstrate\n# VPC GUI.\n#\n# You only need to specify the subnet, it is attached to VPC\nSUBNET = \"subnet-06a48f59fa5d0b674\"\n\n# amzn2-ami-kernel-5.10-hvm-2.0.20220426.0-x86_64-gp2\n# Amazon Linux 2 (Could easily choose Ubuntu, etc. instead)\nAMI = \"ami-0022f774911c1d690\"\n\n# baypiggies-demo-security-group\n# SSH (port 22) *only* from Glens Office\n# HTTP (Port 80) from anywhere 0.0.0.0/0\nSECURITY_GROUP = \"sg-0d53ca68a605d2eee\"\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": -0.021031358607143648,
+            "z": 2,
+            "w": 0.9401905318173956,
+            "h": 0.98543554000866
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        19,
+        2
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "5v8u4u7ewi",
+      "elements": [
+        {
+          "id": "k86x2pf32g",
+          "type": "code",
+          "data": {
+            "code": "HARD_DISKS = [\n    {\n        'DeviceName': '/dev/xvda',\n        'Ebs': {\n            'DeleteOnTermination': True,\n            'VolumeSize': 8,\n            'VolumeType': 'gp2'\n        },\n    },\n], ",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.1749749554622787,
+            "z": 1,
+            "w": 0.5025803188379299,
+            "h": 0.6536965882013261
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "bamncx8k8j",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "GNyjCePVRs8",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1597852074816-d933c7d2b988",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGhhcmQlMjBkaXNrfGVufDB8MHx8fDE2NTM1MzY1Nzg&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/GNyjCePVRs8/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGhhcmQlMjBkaXNrfGVufDB8MHx8fDE2NTM1MzY1Nzg?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@benjaminlehman?utm_source=slidebean&utm_medium=referral",
+              "owner": "benjamin lehman",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.5124366113923213,
+            "y": 0,
+            "w": 0.4875329619777519,
+            "h": 1.0003121182436798,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        10,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "vxaf43q1im",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "\n\n    NetworkInterfaces=[\n        {\n            'DeviceIndex': 0,\n            'SubnetId': SUBNET,\n            'Groups': [SECURITY_GROUP],\n            'AssociatePublicIpAddress': True\n        }\n    ],\n\n\n\n\n\n\n\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.6470628569095085,
+            "h": 0.985200701292584
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        23,
+        2
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "5e2tv4lq5o",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "response = client.run_instances(\n    BlockDeviceMappings=HARD_DISKS,\n    ImageId=AMI,\n    KeyName=KEY_NAME,\n    InstanceType='t2.micro',\n    MaxCount=1,\n    MinCount=1,\n\n    NetworkInterfaces=[\n        {\n            'DeviceIndex': 0,\n            'SubnetId': SUBNET,\n            'Groups': [SECURITY_GROUP],\n            'AssociatePublicIpAddress': True\n        }\n    ],\n)\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.6470628569095085,
+            "h": 0.985200701292584
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        35,
+        3
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "flloc0d3hm",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "\n\nimport boto3\n\nclient = boto3.client('ec2', region_name='us-east-1')\n\nresponse = client.run_instances(\n    BlockDeviceMappings=HARD_DISKS,\n    ImageId=AMI,\n    KeyName=KEY_NAME,\n    InstanceType='t2.micro',\n    MaxCount=1,\n    MinCount=1,\n    NetworkInterfaces=....\n)\n\n\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.6470628569095085,
+            "h": 0.985200701292584
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        47,
+        4
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "2lb0koxxuu",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "\n\nimport boto3\n\nclient = boto3.client('ec2', region_name='us-east-1')\n\nresponse = client.run_instances(\n    BlockDeviceMappings=HARD_DISKS,\n    ImageId=AMI,\n    KeyName=KEY_NAME,\n    InstanceType='t2.micro',\n    MaxCount=1,\n    MinCount=1,\n    NetworkInterfaces=....\n)\n\n\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.6470628569095085,
+            "h": 0.985200701292584
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        59,
+        5
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "g94bgh6lem",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "INTERESTING_KEYS = [\n    \"InstanceType\", \"KeyName\", \"PrivateDnsName\", \"PrivateIpAddress\",\n    \"PublicDnsName\", \"State\", \"Hypervisor\", \"RootDeviceName\",\n    \"PrivateIpAddres\", \"PublicDnsName\", \"State\"]\n\nfor instance in response['Instances']:\n    print(f\"Instance ID: { instance['InstanceId'] }\")\n    # Uncomment next line to drop into debugger to examine 'instance'\n    # import pdb; pdb.set_trace()\n    for key in instance.keys():\n        if key in INTERESTING_KEYS:\n            print(f\"\\t{ key }: { instance[key] }\")\n\n    print(\"\\n\\n\\tConnect: ssh -i baypiggies-demo.pem  \"\n          \"ec2-user@<< instance['PublicDnsName'] >>\\n\")\n\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.7807244691254044,
+            "h": 0.9855335389083921
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        71,
+        6
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "dtzw5figyq",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "$ ./create_ec2.py \nInstance ID: i-07497daa368182658\n        InstanceType: t2.micro\n        KeyName: baypiggies-demo\n        PrivateDnsName: ip-10-0-11-217.ec2.internal\n        PrivateIpAddress: 10.0.11.217\n        PublicDnsName: \n        State: {'Code': 0, 'Name': 'pending'}\n        Hypervisor: xen\n        RootDeviceName: /dev/xvda\n\n\n        Connect: ssh -i baypiggies-demo.pem  ec2-user@<< instance['PublicDnsName'] >>\n\n\n\n\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.9998535477038786,
+            "h": 0.9998535875729246
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 1.1349999991060808,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        83,
+        7
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "mo3y96qjus",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "\n$ ssh -i baypiggies-demo.pem ec2-user@44.203.126.211\nThe authenticity of host '44.203.126.211 (44.203.126.211)' can't be established.\nED25519 key fingerprint is SHA256:R8NrkCDxlu8CPTp9fIhmK0JegcysP86tmpKFPp89nas.\nThis key is not known by any other names\nAre you sure you want to continue connecting (yes/no/[fingerprint])? yes\n\n\nWarning: Permanently added '44.203.126.211' (ED25519) to the list of known hosts.\n\n       __|  __|_  )\n       _|  (     /   Amazon Linux 2 AMI\n      ___|\\___|___|\n\nhttps://aws.amazon.com/amazon-linux-2/\n2 package(s) needed for security, out of 6 available\nRun \"sudo yum update\" to apply all updates.\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": -0.027839151193290564,
+            "z": 2,
+            "w": 0.9998535477038786,
+            "h": 0.9998535875729246
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 1.1349999991060808,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        95,
+        8
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "cef1tlg8rw",
+      "elements": [
+        {
+          "id": "54854dzqzc",
+          "type": "heading",
+          "data": {
+            "heading": "<p>SSH and go</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.25,
+            "y": 0.09716666666666668,
+            "z": 1,
+            "w": 0.51,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "2e79bak3bk",
+          "type": "code",
+          "data": {
+            "code": "[ec2-user@ip-10-0-7-140 ~]$ python\nPython 2.7.18 (default, Jun 10 2021, 00:11:02) \n[GCC 7.3.1 20180712 (Red Hat 7.3.1-13)] on linux2\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> \n[ec2-user@ip-10-0-7-140 ~]$ python3\nPython 3.7.10 (default, Jun  3 2021, 00:02:01) \n[GCC 7.3.1 20180712 (Red Hat 7.3.1-13)] on linux\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> \n",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.09999999999999996,
+            "y": 0.26383333333333336,
+            "z": 2,
+            "w": 0.81,
+            "h": 0.639
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        16,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "o8xnja4ree",
+      "elements": [
+        {
+          "id": "54854dzqzc",
+          "type": "heading",
+          "data": {
+            "heading": "<p>CLI Access</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.175,
+            "y": 0.07366666666666662,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "2e79bak3bk",
+          "type": "code",
+          "data": {
+            "code": "$ aws ec2 describe-instances | head -10\n{\n    \"Reservations\": [\n        {\n            \"Groups\": [],\n            \"Instances\": [\n                {\n                    \"AmiLaunchIndex\": 0,\n                    \"ImageId\": \"ami-0022f774911c1d690\",\n                    \"InstanceId\": \"i-05392014324c6f0f5\",\n                    \"InstanceType\": \"t2.micro\",\n",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.175,
+            "y": 0.2403333333333333,
+            "z": 2,
+            "w": 0.66,
+            "h": 0.686
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        17,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "p1cjolrr65",
+      "elements": [
+        {
+          "id": "hil5asv6rd",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Questions?</p>",
+            "subheading": "<p>(And an excuse for a talking break)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.5,
+            "y": 0.3333333333333333,
+            "z": 2,
+            "w": 0.5,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "u5gd3je9tf",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "AoqgGAqrLpU",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1534551767192-78b8dd45b51b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1534551767192-78b8dd45b51b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHF1ZXN0aW9uc3xlbnwwfDB8fHwxNjUzNDIwNTY1&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/AoqgGAqrLpU/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHF1ZXN0aW9uc3xlbnwwfDB8fHwxNjUzNDIwNTY1?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@camylla93?utm_source=slidebean&utm_medium=referral",
+              "owner": "Camylla Battani",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.5,
+            "h": 1,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        18,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "0d82hjfwzy",
+      "elements": [
+        {
+          "id": "xaw1zayx3v",
+          "type": "heading",
+          "data": {
+            "heading": "<p>We can now build a VM in the cloud</p>",
+            "subheading": "<p>Welcome to 2006</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.08333333333333333,
+            "z": 1,
+            "w": 0.66,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "z52fcgrjq1",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>Even though we have a machine in the cloud, what about:</p><ul><li>Upgrading Operating System Packages</li><li>Installing needed packages (like Python nginx, etc.)</li><li>Installing Python Packages (e.g., Flask or Python)</li><li>Applying Database Migrations</li><li>Compiling Assets</li><li>etc.</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.3333333333333333,
+            "z": 2,
+            "w": 0.66,
+            "h": 0.446
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "y6qh7cyqus",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "Ns-BIiW_cNU",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1508361727343-ca787442dcd7",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1508361727343-ca787442dcd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDE1fHxmdXR1cmV8ZW58MHwwfHx8MTY1MzQzNTQwOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/Ns-BIiW_cNU/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDE1fHxmdXR1cmV8ZW58MHwwfHx8MTY1MzQzNTQwOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@tomparkes?utm_source=slidebean&utm_medium=referral",
+              "owner": "Tom Parkes",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.65,
+            "y": 0,
+            "w": 0.35000000000000003,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        37,
+        2
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "m2jscam29u",
+      "elements": [
+        {
+          "id": "1n6sjdzx13",
+          "type": "code",
+          "data": {
+            "code": "# This is the \"script\" that will be executed if we pass it as a value\n# to 'UserData' in the run_instances function:\nUSER_DATA = \"\"\"#!/usr/bin/env python3\nwith open('/tmp/is_this_thing_on.txt', 'w') as demo_fp:\n    demo_fp.write(\"There should be one-- \")\n    demo_fp.write(\"and preferably only one \")\n    demo_fp.write(\"--obvious way to do it.\")\n\"\"\"\n...\nresponse = client.run_instances(\n    BlockDeviceMappings=HARD_DISKS,\n    ImageId=AMI,\n    KeyName=KEY_NAME,\n    InstanceType='t2.micro',\n    UserData=base64.b64encode(USER_DATA.encode('ascii')),\n    MaxCount=1,\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0.09999999999999998,
+            "y": 0.03849999999999998,
+            "z": 1,
+            "w": 0.81,
+            "h": 0.923
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        19,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "tz712ozm50",
+      "elements": [
+        {
+          "id": "vw699iq63g",
+          "type": "code",
+          "data": {
+            "code": "[ec2-user@ip-10-0-12-85 ~]$ cat /tmp/is_this_thing_on.txt \nThere should be one-- and preferably only one --obvious way to do it.[ec2-user@ip-10-0-12-85 ~]$ ",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.019375,
+            "y": 0.695,
+            "z": 1,
+            "w": 0.9806249533350613,
+            "h": 0.27599219416698284
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "6bahkllr19",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "vmv47p4zksWDC",
+              "source": "Giphy",
+              "url": "assets/img/media_vmv47p4zksWDC_giphy-downsized-medium.gif",
+              "thumbnailUrl": "https://media3.giphy.com/media/vmv47p4zksWDC/giphy-preview.gif?cid=a25782cb7dyf700jnm74wz35oce6ibhc0nlp7nsjldqfe56u&rid=giphy-preview.gif&ct=g",
+              "usageReportUrl": null,
+              "creditUrl": null,
+              "owner": null,
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 0.6666666666666666,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        20,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "y80a5gwqjz",
+      "elements": [
+        {
+          "id": "a06q3g82ax",
+          "type": "heading",
+          "data": {
+            "heading": "<p>When it fails (and it will)</p>",
+            "subheading": "<p>/var/log/cloud-init-output.log</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.0512593911844387,
+            "y": 0.04548652267305659,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "od6j219x66",
+          "type": "code",
+          "data": {
+            "code": "[ec2-user@ip-10-0-12-85 ~]$ sudo less /var/log/cloud-init-output.log | less\n\nCloud-init v. 19.3-45.amzn2 running 'init-local' at Thu, 26 May 2022 18:18:15 +0000. Up 5.70 seconds.\n\nCloud-init v. 19.3-45.amzn2 running 'init' at Thu, 26 May 2022 18:18:17 +0000. Up 7.33 seconds.\n\nci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++\n\nci-info: +--------+------+------------------------------+---------------+--------+-------------------+",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.036875,
+            "y": 0.33925876562574725,
+            "z": 2,
+            "w": 0.9253853651171167,
+            "h": 0.5938295220551588
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        21,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "q5hhkn4au6",
+      "elements": [
+        {
+          "id": "a06q3g82ax",
+          "type": "heading",
+          "data": {
+            "heading": "<p>When it fails (and it will)</p>",
+            "subheading": "<p>/var/log/cloud-init.log</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.0512593911844387,
+            "y": 0.04548652267305659,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "od6j219x66",
+          "type": "code",
+          "data": {
+            "code": "May 26 18:18:15 cloud-init[2575]: util.py[DEBUG]: Cloud-init v. 19.3-45.amzn2 running 'init-local' at Thu, 26 May 2022 18:18:15 +0000. Up 5.70 seconds.\nMay 26 18:18:15 cloud-init[2575]: main.py[DEBUG]: No kernel command line url found.\nMay 26 18:18:15 cloud-init[2575]: main.py[DEBUG]: Closing stdin.\nMay 26 18:18:15 cloud-init[2575]: util.py[DEBUG]: Writing to /var/log/cloud-init.log - ab: [644] 0 bytes\nMay 26 18:18:15 cloud-init[2575]: util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance/boot-finished\nMay 26 18:18:15 cloud-init[2575]: util.py[DEBUG]: Attempting to remove /var/lib/cloud/data/no-net\nMay 26 18:18:15 cloud-init[2575]: handlers.py[DEBUG]: start: init-local/check-cache: attempting to read from cache [check]\nMay 26 18:18:15 cloud-init[2575]: util.py[DEBUG]: Reading from /var/lib/cloud/instance/obj.pkl (quiet=False)\n",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.036875,
+            "y": 0.33925876562574725,
+            "z": 2,
+            "w": 0.9253853651171167,
+            "h": 0.5938295220551588
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        22,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "wm68zlxc75",
+      "elements": [
+        {
+          "id": "s04flt2978",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Cloud Init</p>",
+            "subheading": "<p>(A Python Project)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.35,
+            "y": 0.02753127943958561,
+            "z": 1,
+            "w": 0.30500007144527447,
+            "h": 0.30646855312256016
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "jumge3veyh",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "00wlvdgsua7",
+              "url": "assets/img/user_425fd567cb3044d38ae1c7d387d9e9f1_Screenshot-from-2022-05-26-11-29-05.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0,
+            "y": 0.206,
+            "w": 1.000166100925431,
+            "h": 0.7846688376729775,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        23,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "cdcei6uth1",
+      "elements": [
+        {
+          "id": "2qcn1uu7aa",
+          "type": "quote",
+          "data": {
+            "quote": "<p>Cloud-Init is to building infrastructure like WSGI is to Web Frameworks. Not really... Well, close enough for this talk</p>",
+            "author": "<p>Me</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.75,
+            "y": 0,
+            "z": 1,
+            "w": 0.25,
+            "h": 0.488
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "to83tldxlf",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "lvFlpqEvuRM",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1554692918-08fa0fdc9db3",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1554692918-08fa0fdc9db3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDI0fHxkb2d8ZW58MHwwfHx8MTY1MzUzNTM3Mg&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/lvFlpqEvuRM/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDI0fHxkb2d8ZW58MHwwfHx8MTY1MzUzNTM3Mg?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@alvannee?utm_source=slidebean&utm_medium=referral",
+              "owner": "Alvan Nee",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.7499999999999999,
+            "h": 1,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        24,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "89f16qktmf",
+      "elements": [
+        {
+          "id": "kfm7t9urum",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Building Big Bash Scripts</p>",
+            "subheading": "<p>will not be reliable</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.55,
+            "y": 0.5,
+            "z": 1,
+            "w": 0.44999999999999996,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "v80jdgd72k",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "cGXdjyP6-NU",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1508935620299-047e0e35fbe3",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGZhaWx8ZW58MHwwfHx8MTY1MzUwMTQ5Ng&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/cGXdjyP6-NU/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGZhaWx8ZW58MHwwfHx8MTY1MzUwMTQ5Ng?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@chuttersnap?utm_source=slidebean&utm_medium=referral",
+              "owner": "CHUTTERSNAP",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.55,
+            "h": 1,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        25,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "avpuen13f1",
+      "elements": [
+        {
+          "id": "gpr1191j66",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Math is against us</p>",
+            "subheading": "<p>95% reliable code x 3  = 85% reliable</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.3333333333333333,
+            "z": 1,
+            "w": 0.51,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "dhxn2laju1",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>0.95 * 0.95 * 0.95 = 0.85 (85% reliable)</p><p>0.95 ^ 7 = 0.698 (70% reliable)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.5833333333333335,
+            "z": 2,
+            "w": 0.46,
+            "h": 0.185
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "13lyfizz9q",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "h3kuhYUCE9A",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1635070041078-e363dbe005cb",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fG1hdGh8ZW58MHwwfHx8MTY1MzU2MjQxMQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/h3kuhYUCE9A/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fG1hdGh8ZW58MHwwfHx8MTY1MzU2MjQxMQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@dancristianpaduret?utm_source=slidebean&utm_medium=referral",
+              "owner": "Dan-Cristian Pădureț",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.5,
+            "y": 0,
+            "w": 0.49999999999999994,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        26,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "33w54jlruk",
+      "elements": [
+        {
+          "id": "53o2wn0zjq",
+          "type": "heading",
+          "data": {
+            "heading": "<p>1. Plan for Failure (e.g., retry)</p>",
+            "subheading": "<p>Principles for reliable infrastructure</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.22500000000000003,
+            "y": 0.21499999999999997,
+            "z": 1,
+            "w": 0.56,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "tq0wn796r0",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "40XgDxBfYXM",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1544197150-b99a580bb7a8",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDZ8fG5ldHdvcmt8ZW58MHwwfHx8MTY1MzU2MTQ2Mw&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/40XgDxBfYXM/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDZ8fG5ldHdvcmt8ZW58MHwwfHx8MTY1MzU2MTQ2Mw?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@jordanharrison?utm_source=slidebean&utm_medium=referral",
+              "owner": "Jordan Harrison",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.09424649586915382,
+            "y": 0.465,
+            "w": 0.381036596288179,
+            "h": 0.3280269018601858,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "731rig5dme",
+          "type": "image",
+          "data": {
+            "image": null,
+            "icon": {
+              "__typename": "ExternalAsset",
+              "id": "1921201",
+              "source": "NounProject",
+              "url": "assets/img/proy-sust_1921201.svg",
+              "thumbnailUrl": "assets/img/png_1921201-200.png",
+              "usageReportUrl": null,
+              "creditUrl": null,
+              "owner": null
+            }
+          },
+          "options": {
+            "imageCropRect": null
+          },
+          "style": {
+            "x": 0.525,
+            "y": 0.4650000000000001,
+            "w": 0.2,
+            "h": 0.32,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        27,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "mtob1zahhd",
+      "elements": [
+        {
+          "id": "53o2wn0zjq",
+          "type": "heading",
+          "data": {
+            "heading": "<p>2. Organize into logical components</p>",
+            "subheading": "<p>Principles for reliable infrastructure</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.05000000000000002,
+            "y": 0.0416666666666667,
+            "z": 1,
+            "w": 0.66,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "tq0wn796r0",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "kn-UmDZQDjM",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1587654780291-39c9404d746b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fGxlZ298ZW58MHwwfHx8MTY1MzU5MDgyOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/kn-UmDZQDjM/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fGxlZ298ZW58MHwwfHx8MTY1MzU5MDgyOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@xavi_cabrera?utm_source=slidebean&utm_medium=referral",
+              "owner": "Xavi Cabrera",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0.3333333333333334,
+            "w": 1,
+            "h": 0.6666666666666666,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        28,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "sif55wmdc0",
+      "elements": [
+        {
+          "id": "nnmm55o4su",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Make each component Idempotent</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.10000000000000003,
+            "y": 0.8461666666666667,
+            "z": 1,
+            "w": 0.66,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "3zneu9vu0l",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "p_qco2Eo-E0",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1572566830488-069bcc7fbcec",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1572566830488-069bcc7fbcec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDI4fHxkb2d8ZW58MHwwfHx8MTY1MzU4OTk4OA&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/p_qco2Eo-E0/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDI4fHxkb2d8ZW58MHwwfHx8MTY1MzU4OTk4OA?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@lukeandrewmacg?utm_source=slidebean&utm_medium=referral",
+              "owner": "Luke MacGillivray",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 0.8333333333333333,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        29,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "kuwap5548r",
+      "elements": [
+        {
+          "id": "7zpzh5a2nq",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "g9tc3pqyk85",
+              "url": "assets/img/user_e8cccea94ad14cb9970477cd571887f1_Ansible_logo.svg.png",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.22454784469872996,
+            "y": 0,
+            "w": 0.5,
+            "h": 1,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        30,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "tkprwy0vuz",
+      "elements": [
+        {
+          "id": "pcxgwqrx0g",
+          "type": "heading",
+          "data": {
+            "heading": "<p>The Idea</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.75,
+            "y": 0.08333333333333333,
+            "z": 1,
+            "w": 0.21000000000000002,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "2hjg6ukrau",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>\"Outline\" description of machine can be read by everyone</li><li>Each logical component is idempotent when applied</li><li>Components are loosely coupled</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.7500000000000001,
+            "y": 0.2500000000000001,
+            "z": 2,
+            "w": 0.2499999999999999,
+            "h": 0.608
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "fe8qvmptza",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "82TpEld0_e4",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1512314889357-e157c22f938d",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGlkZWF8ZW58MHwwfHx8MTY1MzU4NTQ5OQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/82TpEld0_e4/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGlkZWF8ZW58MHwwfHx8MTY1MzU4NTQ5OQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@freegraphictoday?utm_source=slidebean&utm_medium=referral",
+              "owner": "AbsolutVision",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.75,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        31,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "kw5otxcww3",
+      "elements": [
+        {
+          "id": "8vjk1hqidz",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Idealized Example</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.6500000000000001,
+            "y": 0,
+            "z": 1,
+            "w": 0.34999999999999987,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "iehtgxh22x",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "zfVIh4cX_4c",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1630419493571-5066ebfb5889",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1630419493571-5066ebfb5889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGlkZWFsfGVufDB8MHx8fDE2NTM1OTE0NzA&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/zfVIh4cX_4c/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGlkZWFsfGVufDB8MHx8fDE2NTM1OTE0NzA?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@chesnutt?utm_source=slidebean&utm_medium=referral",
+              "owner": "Eran Menashri",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.2973984469801333,
+            "h": 1.0008358726045947,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "7u0fvaznqh",
+          "type": "code",
+          "data": {
+            "code": "name: webserver\n  - operating_system: Ubuntu 20.04 LTS Focal Fossa\n  - software_packages:\n    - application:\n      - Python3\n        - Version: 3.10.3\n        - virtualenv: /root/pyenv/envs/application_environment\n      - app_root: html_demo_site-main\n    - gunicorn\n      - number_of_workers: 3\n    - nginx\n      - web_root: /var/www/\n      - server_template: files/nginx.conf.j2\n",
+            "language": "markup"
+          },
+          "options": {},
+          "style": {
+            "x": 0.29739744321647726,
+            "y": 0.167,
+            "z": 3,
+            "w": 0.7027842685102259,
+            "h": 0.796138288210047
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        32,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "29hcvkn3fs",
+      "elements": [
+        {
+          "id": "gaiv90wejr",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Real Life Example</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.325,
+            "y": 0.07086666666666663,
+            "z": 1,
+            "w": 0.36,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "8nvy2ldqxg",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "5fNmWej4tAA",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1454165804606-c3d57bc86b40",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHJlYWx8ZW58MHwwfHx8MTY1MzU3NDA2MA&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/5fNmWej4tAA/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHJlYWx8ZW58MHwwfHx8MTY1MzU3NDA2MA?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@homajob?utm_source=slidebean&utm_medium=referral",
+              "owner": "Scott Graham",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.175,
+            "y": 0.2375333333333333,
+            "w": 0.65,
+            "h": 0.6916000000000001,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        33,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "cus52z6xw4",
+      "elements": [
+        {
+          "id": "7howazxem9",
+          "type": "code",
+          "data": {
+            "code": "---\n- hosts: all\n  become: yes\n  vars:\n    server_name: \"{{ ansible_default_ipv4.address }}\"\n    document_root: /var/www\n    app_root: html_demo_site-main\n  tasks:\n    - name: Update apt cache and install Nginx\n      apt:\n        name: nginx\n        state: latest\n        update_cache: yes\n\n    - name: Copy website files to the server's document root\n      copy:\n        src: \"{{ app_root }}\"\n        dest: \"{{ document_root }}\"\n        mode: preserve\n",
+            "language": "markup"
+          },
+          "options": {},
+          "style": {
+            "x": 0.12026405478914967,
+            "y": 0,
+            "z": 3,
+            "w": 0.71,
+            "h": 2.246
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        34,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "jniv246gq3",
+      "elements": [
+        {
+          "id": "7howazxem9",
+          "type": "code",
+          "data": {
+            "code": "    - name: Apply Nginx template\n      template:\n        src: files/nginx.conf.j2\n        dest: /etc/nginx/sites-available/default\n      notify: Restart Nginx\n\n    - name: Enable new site\n      file:\n        src: /etc/nginx/sites-available/default\n        dest: /etc/nginx/sites-enabled/default\n        state: link\n      notify: Restart Nginx\n\n    - name: Allow all access to tcp port 80\n      ufw:\n        rule: allow\n        port: '80'\n        proto: tcp\n",
+            "language": "markup"
+          },
+          "options": {},
+          "style": {
+            "x": 0.12026405478914967,
+            "y": 0,
+            "z": 3,
+            "w": 0.71,
+            "h": 2.246
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        35,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "4742ywgle1",
+      "elements": [
+        {
+          "id": "7howazxem9",
+          "type": "code",
+          "data": {
+            "code": "  handlers:\n    - name: Restart Nginx\n      service:\n        name: nginx\n        state: restarted",
+            "language": "markup"
+          },
+          "options": {},
+          "style": {
+            "x": 0.12026405478914967,
+            "y": 0,
+            "z": 3,
+            "w": 0.71,
+            "h": 2.246
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        36,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "a5uzgvcb7k",
+      "elements": [
+        {
+          "id": "p5rx9ab2oc",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Declarative vs Imperative</p>",
+            "subheading": "<p>(My fundamental question)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.5,
+            "y": 0.08039470240861411,
+            "z": 1,
+            "w": 0.5,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "kfv5put4se",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "aYPtEknQmXE",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1586527155314-1d25428324ff",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1586527155314-1d25428324ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDZ8fHRoaW5rfGVufDB8MHx8fDE2NTMzMzU2Mjc&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/aYPtEknQmXE/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDZ8fHRoaW5rfGVufDB8MHx8fDE2NTMzMzU2Mjc?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@markuswinkler?utm_source=slidebean&utm_medium=referral",
+              "owner": "Markus Winkler",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.5,
+            "h": 1,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "yxajs7cxu5",
+          "type": "code",
+          "data": {
+            "code": "SELECT Name FROM \nCustomers WHERE EXISTS\n (SELECT Item FROM Orders\n WHERE Customers.ID =\n Orders.ID AND Price < 50)\n",
+            "language": "scss"
+          },
+          "options": {},
+          "style": {
+            "x": 0.5000000332290716,
+            "y": 0.36817073462499145,
+            "z": 3,
+            "w": 0.5001123629782965,
+            "h": 0.5750433192652427
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        37,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "cgibn3zm9e",
+      "elements": [
+        {
+          "id": "fd4qqr085v",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Declarative</p>",
+            "subheading": "<p>*WHAT* should exist (explicitly)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.0225,
+            "y": 0.09825837553907059,
+            "z": 1,
+            "w": 0.46000002561067493,
+            "h": 0.22720251085859794
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "vmgkb7f1ky",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Imperative\t/ Procedural</p>",
+            "subheading": "<p>*HOW* to get to that existing state</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.022500025610674903,
+            "y": 0.5485894571561348,
+            "z": 2,
+            "w": 0.51,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "nmqqq7rg4b",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "Lyl8RL7imrw",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1589828994379-7a8869c4f519",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1589828994379-7a8869c4f519?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGhvd3xlbnwwfDB8fHwxNjUzNTkyNzM0&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/Lyl8RL7imrw/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGhvd3xlbnwwfDB8fHwxNjUzNTkyNzM0?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mattwridley?utm_source=slidebean&utm_medium=referral",
+              "owner": "Matt Ridley",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.5000000000000001,
+            "y": 0,
+            "w": 0.49999999999999994,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        38,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "9kam2njrx8",
+      "elements": [
+        {
+          "id": "dc6xefwmf7",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Don't Forget</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.07500000000000002,
+            "y": 0.05409531502423255,
+            "z": 1,
+            "w": 0.86,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "lpa2xgvy2m",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "m7gsmu052sf",
+              "source": null,
+              "url": "assets/img/user_e86035c3069240b3a91eae901e0f42f1_imposter_tweet.png",
+              "thumbnailUrl": null,
+              "usageReportUrl": null,
+              "creditUrl": null,
+              "owner": null,
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.0975,
+            "y": 0.2,
+            "w": 0.8532050072819565,
+            "h": 0.8000028211925312,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        77,
+        2
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "1g87oyjhz0",
+      "elements": [
+        {
+          "id": "hil5asv6rd",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Questions?</p>",
+            "subheading": "<p>(About to pivot to final concept)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.5,
+            "y": 0.3333333333333333,
+            "z": 2,
+            "w": 0.5,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "u5gd3je9tf",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "AoqgGAqrLpU",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1534551767192-78b8dd45b51b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1534551767192-78b8dd45b51b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHF1ZXN0aW9uc3xlbnwwfDB8fHwxNjUzNDIwNTY1&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/AoqgGAqrLpU/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHF1ZXN0aW9uc3xlbnwwfDB8fHwxNjUzNDIwNTY1?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@camylla93?utm_source=slidebean&utm_medium=referral",
+              "owner": "Camylla Battani",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.5,
+            "h": 1,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        39,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "w6dzb4yve9",
+      "elements": [
+        {
+          "id": "8qj1vu6sh",
+          "type": "heading",
+          "data": {
+            "heading": "<p>One Way</p>",
+            "subheading": ""
+          },
+          "options": {
+            "variation": "Pill"
+          },
+          "style": {
+            "x": 0.4,
+            "y": 0.2861666666666666,
+            "w": 0.21000000000000002,
+            "h": 0.141,
+            "z": 15
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "73yc7sit5a",
+          "type": "code",
+          "data": {
+            "code": "$ python -m this | grep -i \"only one\"\nThere should be one-- and preferably only one --obvious way to do it.",
+            "language": "bash"
+          },
+          "options": {},
+          "style": {
+            "x": 0.09999999999999999,
+            "y": 0.4528333333333333,
+            "z": 16,
+            "w": 0.81,
+            "h": 0.261
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": "default",
+        "backgroundDim": 0.7,
+        "cropBackground": true,
+        "logoPosition": "top-right"
+      },
+      "notes": "",
+      "fractionalIndex": [
+        40,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "sfg00avcpl",
+      "elements": [
+        {
+          "id": "eq70nx0rw1",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Hypervisors</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.375,
+            "y": 0.1020169851380042,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xa6g0lpggo",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Image from https://en.wikipedia.org/wiki/Hypervisor</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "ilc26zo88z",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "udtq6xhj339",
+              "url": "assets/img/user_cf18fd9ee5434cc0a712e0590e6cd9f1_Hypervisor.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.17500000000000004,
+            "y": 0.268683651804671,
+            "w": 0.65,
+            "h": 0.6292993630573248,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        41,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "ksnzfw2beq",
+      "elements": [
+        {
+          "id": "0ohjjkklt8",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Containers</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.375,
+            "y": 0.12416666666666659,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "nl3f9hhwh4",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "hxypj9y3osb",
+              "url": "assets/img/user_00a51cade2e14ddbb4560f1c28b6c1f1_cgroups-docker.jpg",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.175,
+            "y": 0.2908333333333334,
+            "w": 0.65,
+            "h": 0.5850000000000001,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "hyq86kn8zf",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Image source: https://www.cloudsigma.com/manage-docker-resources-with-cgroups/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        42,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "thz72hilez",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "                                                                                                                            $ cat Containerfile \n# https://github.com/Docker-Hub-frolvlad/docker-alpine-glibc/blob/master/Dockerfile\nFROM python:3.9-alpine\n\nRUN mkdir -p /usr/src/app\nCOPY src/* /usr/src/app\nWORKDIR /usr/src/app\n\n# For building a debug build\n# RUN apk update && apk upgrade && apk add bash \n\nRUN /usr/local/bin/python -m pip install --upgrade pip &&\\\n  pip install -r requirements.txt &&\\\n chmod u+x demo4.py\n",
+            "language": "less"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.08736172424101599,
+            "z": 2,
+            "w": 0.9997803785008358,
+            "h": 0.89955085250269
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        130,
+        3
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "og4ptbssst",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "podman build -t baypiggies-demo .                                                                                                          \nSTEP 1/5: FROM python:3.9-alpine                                                                                                           \nResolved \"python\" as an alias (/etc/containers/registries.conf.d/shortnames.conf)                                                          \nTrying to pull docker.io/library/python:3.9-alpine...                                                                                      \nGetting image source signatures                                                                                                            \nCopying blob 87649329377c done                                                                                                             \nCopying blob 2408cc74d12b done                                                                                                             \nCopying blob 88465a687a6a done                                                                                                             \nCopying blob e18970c0eb4e done                                                                                                             \nCopying blob 2f22aa6a21a6 done                                                                                                             \nCopying config 7dd61a9a1c done                                                                                                             \nWriting manifest to image destination                                                                                                      \nStoring signatures                                                                                                                         \nSTEP 2/5: RUN mkdir -p /usr/src/app                                                                                                        \n--> 4ee736286ef                                                                                                                             ",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "w": 0.9694230081600417,
+            "h": 0.9852251088445328
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        87,
+        2
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "np5em12qx4",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "                                                                                                           $ cat src/demo4.py \n#!/usr/bin/env python3\n\nfor i in range(0, 20):\n    print(f\"{i}: Running from container.\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": -0.029686413928563478,
+            "z": 2,
+            "w": 0.9998241826703516,
+            "h": 0.9850220778325909
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        131,
+        3
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "v4x8ie835k",
+      "elements": [
+        {
+          "id": "ze6s5qubqq",
+          "type": "code",
+          "data": {
+            "code": "$ podman run -it baypiggies-demo:latest  /usr/src/app/demo4.py\n0: Running from container.\n1: Running from container.\n2: Running from container.\n3: Running from container.\n4: Running from container.\n5: Running from container.\n6: Running from container.\n7: Running from container.\n8: Running from container.\n9: Running from container.\n10: Running from container.\n11: Running from container.\n12: Running from container.\n13: Running from container.\n[snip]\n18: Running from container.\n19: Running from container.",
+            "language": "python"
+          },
+          "options": {},
+          "style": {
+            "x": -0.013066202611605649,
+            "y": -0.028257839651785913,
+            "z": 2,
+            "w": 0.9998241826703516,
+            "h": 0.9850220778325909
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xw91h7qkdc",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "FWoq_ldWlNQ",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1584949091598-c31daaaa4aa9",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/FWoq_ldWlNQ/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDh8fGNvZGV8ZW58MHwwfHx8MTY1MzUxNDYzOQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@mitchel3uo?utm_source=slidebean&utm_medium=referral",
+              "owner": "Mitchell Luo",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 1.0001074231631044,
+            "h": 1.0001073827024025,
+            "z": 1
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        175,
+        4
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "qm4jmvt1dk",
+      "elements": [
+        {
+          "id": "7xfx6h3rjw",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Best Practices</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.65,
+            "y": 0.3333333333333333,
+            "z": 1,
+            "w": 0.31,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "p2k3178iqo",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Keep container images small</li><li>Keep number of layers small (Use: RUN ...&amp;&amp; ...)</li><li>Container: Independent piece of project</li><li>Connect containers together: e.g., docker-compose</li><li>Push container images to repository</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.6,
+            "y": 0.5,
+            "z": 2,
+            "w": 0.4,
+            "h": 0.497
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "2har1d1ajj",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "NH1d0xX6Ldk",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1477884213360-7e9d7dcc1e48",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDV8fGRvZ3xlbnwwfDB8fHwxNjUzNTM1Mzcy&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/NH1d0xX6Ldk/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDV8fGRvZ3xlbnwwfDB8fHwxNjUzNTM1Mzcy?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@justinveenema?utm_source=slidebean&utm_medium=referral",
+              "owner": "Justin Veenema",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.6000000000000001,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        394,
+        9
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "7x59nurqnh",
+      "elements": [
+        {
+          "id": "p8ntm4zuu9",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Kubernetes</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.37500000000000006,
+            "y": 0.05666666666666664,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "bb9wkm4oca",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "h5anl2sdc4m",
+              "url": "assets/img/user_65da337f12d64d539cf7b24855d92cf1_Kubernetes_logo_without_workmark.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.27602025704066707,
+            "y": 0.19766407362463692,
+            "w": 0.45,
+            "h": 0.72,
+            "z": 3
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "xso2yyhcks",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Source: https://bs.m.wikipedia.org/wiki/Datoteka:Kubernetes_logo_without_workmark.svg</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        1007,
+        23
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "ios2c2xj2w",
+      "elements": [
+        {
+          "id": "bo337ay2ya",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Quiz / Discussion</p>",
+            "subheading": "<p>Which is the one right way?</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "w": 0.41000000000000003,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "wqjkzbk1s4",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>pipenv</li><li>poetry</li><li>pip-tools</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.24999999999999994,
+            "z": 2,
+            "w": 0.21000000000000002,
+            "h": 0.22
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "7fb3ea24p4",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "rendLSpkDtY",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1621440318464-72633426377b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1621440318464-72633426377b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fG9uZXxlbnwwfDB8fHwxNjUzNTA2NjY1&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/rendLSpkDtY/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fG9uZXxlbnwwfDB8fHwxNjUzNTA2NjY1?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@marcel_eberle?utm_source=slidebean&utm_medium=referral",
+              "owner": "Marcel Eberle",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.3999999999999999,
+            "y": 0,
+            "w": 0.6000000000000001,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        613,
+        14
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "tlrnp5eqqx",
+      "elements": [
+        {
+          "id": "hil5asv6rd",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Questions?</p>",
+            "subheading": "<p>Lets tie all of this up (aka Just how over time am I?)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.5,
+            "y": 0.3333333333333333,
+            "z": 2,
+            "w": 0.5,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "u5gd3je9tf",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "AoqgGAqrLpU",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1534551767192-78b8dd45b51b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1534551767192-78b8dd45b51b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHF1ZXN0aW9uc3xlbnwwfDB8fHwxNjUzNDIwNTY1&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/AoqgGAqrLpU/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fHF1ZXN0aW9uc3xlbnwwfDB8fHwxNjUzNDIwNTY1?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@camylla93?utm_source=slidebean&utm_medium=referral",
+              "owner": "Camylla Battani",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.5,
+            "h": 1,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        219,
+        5
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "t1yheytoue",
+      "elements": [
+        {
+          "id": "czvp4zfb68",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Vendors</p>",
+            "subheading": "<p>This is familiar</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.395625,
+            "y": 0.016112438313197135,
+            "z": 2,
+            "w": 0.264422831484471,
+            "h": 0.2502550847864261
+          },
+          "fractionalIndex": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "eo29edo67o",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "oue6io122uj",
+              "url": "assets/img/user_3c6f94290f9849e0970b81561dfe5af1_Cloud-Delivery-Models.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.07999175135491937,
+            "y": 0.266359354089466,
+            "w": 0.8438453908680474,
+            "h": 0.651129385706219,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "ge429chqmo",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Photo from https://kinsta.com/blog/google-cloud-vs-aws/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 3
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        263,
+        6
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "wdbvez0t17",
+      "elements": [
+        {
+          "id": "bsvhbb1nuu",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Summary</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.6500000000000001,
+            "y": 0,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "4v7qqo8xoe",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>My Customer:</p><ul><li>Already using AWS</li><li> Moving to Containers</li><li>Orchestration: Fargate (Not EC2 like we saw earlier nor Kubernetes). Amazon runs the containers for you</li><li>Wanted IaaC (no more click-ops)</li><li>Liked what they read about Pulumi</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.65,
+            "y": 0.16666666666666674,
+            "z": 2,
+            "w": 0.35,
+            "h": 0.472
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "yllrbhj3f2",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "Ox6SW103KtM",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1556742049-0cfed4f6a45d",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGN1c3RvbWVyfGVufDB8MHx8fDE2NTM1ODI5MDk&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/Ox6SW103KtM/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGN1c3RvbWVyfGVufDB8MHx8fDE2NTM1ODI5MDk?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@claybanks?utm_source=slidebean&utm_medium=referral",
+              "owner": "Clay Banks",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.6499999999999999,
+            "h": 1,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        44,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "4jckrrjz65",
+      "elements": [
+        {
+          "id": "6fsd2qd0xg",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Summary</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.04999999999999993,
+            "y": 0.1366666666666666,
+            "z": 1,
+            "w": 0.26,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "hepmhns7qt",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<ul><li>Pulumi wasn't very declarative</li><li>Customer did not understand IaaC concepts (but thought they did which was more dangerous)</li><li>I <b>love</b> the Promise of:</li><li class=\"ql-indent-1\">Declarative outer shell (e.g., like SQL)</li><li class=\"ql-indent-1\">Custom inner process (e.g., You write custom component -- like Ansible custom tasks)</li><li>This wasn't that ^^^</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.04999999999999993,
+            "y": 0.30333333333333323,
+            "z": 2,
+            "w": 0.56,
+            "h": 0.549
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "idaojke2rz",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "N04FIfHhv_k",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1561037404-61cd46aa615b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1561037404-61cd46aa615b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGRvZ3xlbnwwfDB8fHwxNjUzNTM1Mzcy&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/N04FIfHhv_k/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fGRvZ3xlbnwwfDB8fHwxNjUzNTM1Mzcy?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@victor_vector?utm_source=slidebean&utm_medium=referral",
+              "owner": "Victor Grabarczyk",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.6,
+            "y": 0.30333333333333334,
+            "w": 0.35000000000000003,
+            "h": 0.56,
+            "z": 3
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        45,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "2mxczd4unx",
+      "elements": [
+        {
+          "id": "1ajhbdmqye",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Final Solution</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0,
+            "y": 0.08333333333333333,
+            "z": 1,
+            "w": 0.31,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "36l08g7wrl",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "x21KgBfOd_4",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1605712916066-e143c317df72",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1605712916066-e143c317df72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fHNvbHV0aW9ufGVufDB8MHx8fDE2NTM2MDI2NTE&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/x21KgBfOd_4/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fHNvbHV0aW9ufGVufDB8MHx8fDE2NTM2MDI2NTE?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@edge2edgemedia?utm_source=slidebean&utm_medium=referral",
+              "owner": "Edge2Edge Media",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.3499999999999999,
+            "y": 0,
+            "w": 0.6500000000000001,
+            "h": 1,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "pstlitxo7h",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p><br></p><ul><li>Declarative</li><li>I'm the most experienced with it</li><li>Works well with AWS</li><li>It was the best solution given the situation</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": -0.008922830011647342,
+            "y": 0.4169999999999999,
+            "z": 3,
+            "w": 0.36,
+            "h": 0.333
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        },
+        {
+          "id": "ecl6w8mrf9",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Terraform</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.03266550652901413,
+            "y": 0.2243281241493358,
+            "z": 4,
+            "w": 0.2643782545851542,
+            "h": 0.16667101596934322
+          },
+          "fractionalIndex": [
+            4,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        46,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "w6p5upkzbe",
+      "elements": [
+        {
+          "id": "ge9llnd0gm",
+          "type": "heading",
+          "data": {
+            "heading": "<p>What IS the one way?</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.5709295056154065,
+            "y": 0.0864980521917616,
+            "z": 1,
+            "w": 0.41000000000000003,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "1rmma1vsav",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "rendLSpkDtY",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1621440318464-72633426377b",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1621440318464-72633426377b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fG9uZXxlbnwwfDB8fHwxNjUzNTA2NjY1&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/rendLSpkDtY/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDF8fG9uZXxlbnwwfDB8fHwxNjUzNTA2NjY1?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@marcel_eberle?utm_source=slidebean&utm_medium=referral",
+              "owner": "Marcel Eberle",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0,
+            "y": 0,
+            "w": 0.55,
+            "h": 1,
+            "z": 2
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "icialgynfw",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>How often do we just follow what we are the most experienced at?</p><p>With so many people with so many different experiences, is this <b>WHY</b> there are so many ways?</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.5499999534351365,
+            "y": 0.4030301218788738,
+            "z": 3,
+            "w": 0.44999999999999996,
+            "h": 0.315
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        47,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    },
+    {
+      "id": "j0x9gf3to7",
+      "elements": [
+        {
+          "id": "sczilem0mb",
+          "type": "heading",
+          "data": {
+            "heading": "<p>DevOps / SRE Framework</p>",
+            "subheading": ""
+          },
+          "options": {},
+          "style": {
+            "x": 0.24999999999999997,
+            "y": 0.13702518139137848,
+            "z": 10,
+            "w": 0.51,
+            "h": 0.141
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "pchiiexu0v",
+          "type": "image",
+          "data": {
+            "image": {
+              "id": "414v1u2rmxn",
+              "url": "assets/img/user_2f9f8e16888e4718a81d4a3036da95f1_continuous-development-visual.png",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": 0.14999999999999997,
+            "y": 0.3036918480580453,
+            "w": 0.7000000000000001,
+            "h": 0.5592829705505762,
+            "z": 11
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "jnosdow8nd",
+          "type": "footer",
+          "data": {
+            "footer": "<p>Image taken from https://spectralops.io/blog/the-essential-guide-to-understanding-the-devops-lifecycle/</p>"
+          },
+          "options": {},
+          "style": {
+            "z": 12
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {
+        "colorSet": 0,
+        "animate": false
+      },
+      "notes": "",
+      "fractionalIndex": [
+        95,
+        2
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "38lzv8hgio",
+      "elements": [
+        {
+          "id": "zgi1nxlntm",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "_dJCBtdUu74",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1600132806370-bf17e65e942f",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fGJsdWVwcmludHxlbnwwfDB8fHwxNjUzMzQzMTM4&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/_dJCBtdUu74/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDN8fGJsdWVwcmludHxlbnwwfDB8fHwxNjUzMzQzMTM4?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@sigmund?utm_source=slidebean&utm_medium=referral",
+              "owner": "Sigmund",
+              "crop": "fill"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "fill"
+          },
+          "style": {
+            "x": 0.40000000000000013,
+            "y": 0,
+            "w": 0.6000000000000001,
+            "h": 1,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "d4q1drnsog",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Blueprint Operations</p>",
+            "subheading": "<p>Community</p>"
+          },
+          "options": {},
+          "style": {
+            "x": -1.1102230246251565e-16,
+            "y": 0.16666666666666666,
+            "z": 2,
+            "w": 0.41000000000000003,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "io94lpnwhm",
+          "type": "paragraph",
+          "data": {
+            "paragraph": "<p>Let's arm wrestle over the \"one way\" for a particular Customer Profile:</p><ul><li>New Startup (Seed funding or only one round)</li><li>3 &lt; Size &lt; 1,500 employees</li></ul>"
+          },
+          "options": {},
+          "style": {
+            "x": -1.1102230246251565e-16,
+            "y": 0.4166666666666667,
+            "z": 3,
+            "w": 0.41000000000000003,
+            "h": 0.367
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        48,
+        1
+      ],
+      "hasBeenManuallyArranged": false
+    },
+    {
+      "id": "g6gccs175v",
+      "elements": [
+        {
+          "id": "oi09sw6jb8",
+          "type": "image",
+          "data": {
+            "image": {
+              "__typename": "ExternalAsset",
+              "id": "Hcfwew744z4",
+              "source": "Unsplash",
+              "url": "assets/img/photo-1515378791036-0648a3ef77b2",
+              "thumbnailUrl": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM3MXwwfDF8c2VhcmNofDV8fG9mZmljZSUyMGhvdXJzfGVufDB8MHx8fDE2NTM2MDM4NDQ&ixlib=rb-1.2.1&q=80&w=200",
+              "usageReportUrl": "https://api.unsplash.com/photos/Hcfwew744z4/download?ixid=MnwyMDM3MXwwfDF8c2VhcmNofDV8fG9mZmljZSUyMGhvdXJzfGVufDB8MHx8fDE2NTM2MDM4NDQ?client_id=64d34c0d4b13e39fcc76c60a7f874b20746ab70331c32d6ab3444d9ed2dba794",
+              "creditUrl": "http://unsplash.com/@christinhumephoto?utm_source=slidebean&utm_medium=referral",
+              "owner": "Christin Hume",
+              "crop": "contain"
+            },
+            "icon": null
+          },
+          "options": {
+            "imageCropRect": null,
+            "imageCrop": "contain"
+          },
+          "style": {
+            "x": -0.12128053723745563,
+            "y": 0.11856247747424731,
+            "w": 0.4851262075920308,
+            "h": 0.8047897383455118,
+            "z": 1
+          },
+          "fractionalIndex": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "eq8o8q42zo",
+          "type": "heading",
+          "data": {
+            "heading": "<p>Office Hours</p>",
+            "subheading": "<p>(This talks Demos in GitHub)</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.3042078356325513,
+            "y": 0.014180265814634274,
+            "z": 2,
+            "w": 0.41000000000000003,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "f72qwwfv5p",
+          "type": "heading",
+          "data": {
+            "heading": "<p>https://github.com/glenjarvis</p>",
+            "subheading": "<p>Talk is pinned: talk-baypiggies-2022-05-25</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.4027197139799827,
+            "y": 0.5755349259758366,
+            "z": 3,
+            "w": 0.6,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            3,
+            1
+          ]
+        },
+        {
+          "id": "8eg7392wj1",
+          "type": "heading",
+          "data": {
+            "heading": "<p>https://glenjarvis.com/j/talk</p>",
+            "subheading": "<p>Discord: Finding Times to go over demos</p>"
+          },
+          "options": {},
+          "style": {
+            "x": 0.4027197139799827,
+            "y": 0.31368709436183345,
+            "z": 4,
+            "w": 0.6,
+            "h": 0.215
+          },
+          "fractionalIndex": [
+            4,
+            1
+          ]
+        }
+      ],
+      "options": {},
+      "notes": "",
+      "fractionalIndex": [
+        49,
+        1
+      ],
+      "hasBeenManuallyArranged": true
+    }
+  ],
+  "layoutId": null,
+  "formula": {
+    "id": "f7LjaoGyRa",
+    "defaultElementVariations": {},
+    "defaultSlideOptions": {}
+  },
+  "palette": {
+    "id": "mPXk5mjlXZ",
+    "colorSets": [
+      {
+        "back": "#ffffff",
+        "text": "#283e49",
+        "highlight": "#46b0c1",
+        "chart1": "#46b0c1",
+        "chart2": "#0a718c",
+        "chart3": "#47bfab",
+        "chart4": "#2b8e7b",
+        "chart5": "#58d3e0",
+        "chart6": "#83e5d2"
+      },
+      {
+        "back": "#0a718c",
+        "text": "#ffffff",
+        "highlight": "#32c7d6",
+        "chart1": "#32c7d6",
+        "chart2": "#46b0c1",
+        "chart3": "#47bfab",
+        "chart4": "#2b8e7b",
+        "chart5": "#58d3e0",
+        "chart6": "#83e5d2"
+      }
+    ]
+  },
+  "textFont": {
+    "id": "smcwpGFOPb",
+    "fontId": "Raleway",
+    "fontFamily": "'Raleway'",
+    "webfont": {
+      "google": {
+        "families": [
+          "Raleway:200,600"
+        ]
+      }
+    }
+  },
+  "headingFont": {
+    "id": "tEPrjlFDa1",
+    "fontId": "museo-sans",
+    "fontFamily": "'museo-sans'",
+    "webfont": {
+      "typekit": {
+        "id": "wzt2mrv"
+      }
+    }
+  },
+  "logoLightBg": null,
+  "logoDarkBg": null
+}
+
+  };
+  </script>
+  
+  <div id="embedded-icons"><div id="icon-1921201" style="display: none;"><svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><switch><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"></foreignObject><g i:extraneous="self"><path d="M47.1,91.7c6.3-0.4,9.9-7.3,6.7-12.8l0,0c-1.6-2.7-4.6-4.3-7.7-4.1c-1.8,0.1-3.6,0.1-5.4-0.2C29.2,73,20.2,63.4,19.5,51.7    c-1-14.8,11-27.1,25.7-26.6c12.6,0.4,23.1,10.5,23.9,23.1c0,0,0,0.1,0,0.1h-6.3c-4,0-6.4,4.4-4.3,7.8l14.8,23.7    c2,3.2,6.6,3.2,8.6,0l14.8-23.7c2.1-3.4-0.3-7.8-4.3-7.8H86c-0.8-20.8-17.2-38.1-37.9-40C22,6.1,0.3,27.8,2.7,53.8    C4.5,74.3,21.4,90.6,42,91.7C43.7,91.8,45.4,91.8,47.1,91.7z"></path></g></switch></svg></div></div>
+  <script src="assets/js/runtime-es2015.js" type="text/javascript"></script>
+  <script src="assets/js/polyfills-es2015.js" type="text/javascript"></script>
+  <script src="assets/js/scripts.js" type="text/javascript" defer></script>
+  <script src="assets/js/vendor-es2015.js" type="text/javascript"></script>
+  <script src="assets/js/main-es2015.js" type="text/javascript"></script>
+</body>
+</html>
