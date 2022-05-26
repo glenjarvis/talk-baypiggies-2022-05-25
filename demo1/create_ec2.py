@@ -49,7 +49,7 @@ HARD_DISKS = [
             'VolumeType': 'gp2'
         },
     },
-],
+]
 
 client = boto3.client('ec2', region_name='us-east-1')
 
