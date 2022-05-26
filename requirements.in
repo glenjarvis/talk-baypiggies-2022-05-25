@@ -1,0 +1,3 @@
+pip-tools>6.6
+boto3
+awscli
